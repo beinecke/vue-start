@@ -3,18 +3,21 @@
     <img src="./assets/logo.png">
     <hello></hello>
     <tableui></tableui>
+    <Checkboxui></Checkboxui>
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello'
 import Tableui from './components/table'
+import Checkboxui from './components/checkbox'
 
 export default {
   name: 'app',
   components: {
     Hello,
-    Tableui
+    Tableui,
+    Checkboxui
   }
 }
 </script>
